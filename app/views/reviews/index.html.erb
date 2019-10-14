@@ -1,0 +1,19 @@
+<a href='/reviews/new'><button>Add Review</button></a>
+
+
+<br />
+<br />
+
+
+
+<% @reviews.each do |review| %>
+
+
+  <p> Name: <%= review.name %></h1></p>
+ <p> Review: <%= review.description %></p>
+
+
+
+
+
+<% end %>
